@@ -1,0 +1,5 @@
+smart_open==6.2.0
+gensim==4.2.0
+ruamel.yaml.clib==0.2.7
+ruamel.yaml==0.16.5
+logzero==1.7.0

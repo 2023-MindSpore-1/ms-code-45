@@ -1,0 +1,21 @@
+name: CorNetXMLCNN
+
+model:
+  dynamic_pool_length: 8
+  bottleneck_dim: 512
+  num_filters: 128
+  dropout: 0.5
+  emb_trainable: False
+
+train:
+  batch_size: 32
+  nb_epoch: 45
+  swa_warmup: 10
+
+valid:
+  batch_size: 32
+
+predict:
+  batch_size: 32
+
+path: /home/lcy/CorNet/deep_data/EUR-Lex/models
